@@ -1,0 +1,25 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chase skorczewski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmskorcz/note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmskorcz/note-taker/issues"
+  },
+  "homepage": "https://github.com/cmskorcz/note-taker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
