@@ -29,4 +29,27 @@ router.post('/notes', (req, res) => {
 
 })
 
+router.delete('/notes/:id', (req, res) => {
+    const id = req.params.id;
+    const result = []
+    
+    notes.filter(note => {
+        if (note.id === id) {
+            return
+        }
+        result.push(note);
+    })
+    
+    const newObj = {
+        "notes": result
+    }
+
+    fs.writeFile(path.join(__dirname, '../../db/notes.json'), JSON.stringify(newObj), err => {
+        if (err) {
+            console.log(err);
+        }
+    });
+    res.json(notes);
+})    
+
 module.exports = router
