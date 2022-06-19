@@ -13,7 +13,7 @@ note-taker is an application that allows the user to add, save, and delete notes
 ### Installation
 No installation is required, as application is online and all notes are saved to a json database. In order to user application, please visit live link below.
 ### Usage
-On first time launch, a user will have a blank note template with a "Title" and "Note" field. When a user clicks on these fields, they may populate the fields with text. Once finished, a user may click the save icon to save the note. The note title will then appear on the left side of the page. When a user clicks the title on the side, the note will then appear in the main section, with the note field populated with the user's saved text. In order to delete a note, a user must double-click on the trash icon associated with the desired note.
+On first time launch, a user will have a blank note template with a "Title" and "Note" field. When a user clicks on these fields, they may populate the fields with text. Once finished, a user may click the save icon to save the note. The note title will then appear on the left side of the page. When a user clicks the title on the side, the note will then appear in the main section, with the note field populated with the user's saved text. At this current time, deleting notes is not functional.
 ### License
 Unlicensed
 ### Contributing
