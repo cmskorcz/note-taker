@@ -1,6 +1,8 @@
-# README Generator ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
+# note-taker ![GitHub license](https://img.shields.io/badge/license-Unlicensed-blue)
+## Application
+[note-taker](https://sheltered-spire-48446.herokuapp.com/)
 ## Description
-This project uses node and the npm package inquirer in order to generate a professional README.md file from the command line using a client's inputs.
+note-taker is an application that allows the user to add, save, and delete notes as reminders.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,16 +11,15 @@ This project uses node and the npm package inquirer in order to generate a profe
 - [Tests](#tests)
 - [Questions](#questions)
 ### Installation
-Clone repo to computer, and then run `npm i` in the command line in order to install dependancies. Then run `node index.js` and follow the prompts in the command line.
-A video tutorial can be viewed at this link: [Tutorial](https://drive.google.com/file/d/17NzDGClHmG9iJ_nelGJga-VSJAtxnhuW/view)
+No installation is required, as application is online and all notes are saved to a json database. In order to user application, please visit live link below.
 ### Usage
-This project is free to use to generate README.md files as you see fit.
+On first time launch, a user will have a blank note template with a "Title" and "Note" field. When a user clicks on these fields, they may populate the fields with text. Once finished, a user may click the save icon to save the note. The note title will then appear on the left side of the page. When a user clicks the title on the side, the note will then appear in the main section, with the note field populated with the user's saved text. In order to delete a note, a user must double-click on the trash icon associated with the desired note.
 ### License
-MIT
+Unlicensed
 ### Contributing
-At this time no contributions are requested.
+No contributions accepted at this time.
 ### Tests
-In order to test application's function, please run `node index.js` in command line and follow prompts. If successful, a dist directory will be created with the generated README.md file inside.
+There are no testing instructions for this application at this time.
 ### Questions
 GitHub: [cmskorcz](https://www.github.com/cmskorcz)
 
